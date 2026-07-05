@@ -1,0 +1,158 @@
+.dashboard {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dashboard .welcome {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.user-panel {
+    background: #f7f7f9;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 12px;
+    background: #4c3bcf;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.cta-btn:hover {
+    background: #3a2ca3;
+}
+
+.event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #f7f7f9;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.event-form input,
+.event-form textarea {
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.event-form textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.event-form button {
+    background: #4c3bcf;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.event-form button:hover {
+    background: #3a2ca3;
+}
+
+.cancel-edit {
+    background: #777 !important;
+}
+
+.cancel-edit:hover {
+    background: #555 !important;
+}
+
+.section-title {
+    margin-top: 10px;
+}
+
+.my-events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.my-event-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+.my-event-card h3 {
+    margin: 0 0 6px 0;
+}
+
+.my-event-card p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.my-event-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.my-event-actions button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #eee;
+}
+
+.delete-btn {
+    background: #fde7e7 !important;
+    color: #b3261e;
+}
+
+.delete-btn:hover {
+    background: #f8caca !important;
+}
+
+.empty {
+    color: #777;
+}
+
+.field-label {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+}
+
+.uploading-text {
+    font-size: 13px;
+    color: #4c3bcf;
+    margin: 0;
+}
+
+.image-preview {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 6px;
+}

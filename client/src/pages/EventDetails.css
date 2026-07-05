@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.details-container{
+
+    max-width:1100px;
+
+    margin:40px auto;
+
+    padding:20px;
+
+}
+
+.back-btn{
+
+    padding:10px 20px;
+
+    border:none;
+
+    background:#1e293b;
+
+    color:white;
+
+    cursor:pointer;
+
+    margin-bottom:20px;
+
+    border-radius:6px;
+
+}
+
+.details-card{
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+.details-card img{
+
+    width:100%;
+
+    height:450px;
+
+    object-fit:cover;
+
+}
+
+.details-body{
+
+    padding:30px;
+
+}
+
+.details-body h1{
+
+    color:#1e293b;
+
+    margin-bottom:20px;
+
+}
+
+.description{
+
+    margin-bottom:20px;
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.info{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+    margin-bottom:30px;
+
+}
+
+.info p{
+
+    background:#f4f4f4;
+
+    padding:12px;
+
+    border-radius:6px;
+
+}
+
+.book-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    font-size:18px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:6px;
+
+}
+
+.book-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.book-btn:disabled{
+
+    background:gray;
+
+    cursor:not-allowed;
+
+}
+
+.loading{
+
+    text-align:center;
+
+    margin-top:100px;
+
+}
+
+@media(max-width:768px){
+
+.info{
+
+grid-template-columns:1fr;
+
+}
+
+.details-card img{
+
+height:250px;
+
+}
+
+}
+.ticket-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.ticket-selector label {
+    font-weight: 600;
+}
+
+.ticket-selector input {
+    width: 80px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}

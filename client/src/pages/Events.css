@@ -1,0 +1,54 @@
+.events{
+
+padding:40px;
+
+}
+
+.events input{
+
+width:100%;
+
+padding:15px;
+
+margin:20px 0;
+
+font-size:18px;
+
+}
+
+.event-grid{
+
+display:grid;
+
+grid-template-columns:
+
+repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+}
+.categories{
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+}
+
+.categories button{
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.categories button:hover{
+    background:#1d4ed8;
+}
+
+.categories button.active{
+    background:#1e3a8a;
+    box-shadow: inset 0 0 0 2px #93c5fd;
+}
