@@ -2,8 +2,6 @@ import mongoose from "mongoose";
 import dns from "dns/promises";
 
 // Replace this with your Atlas URI
-const uri =
-  "mongodb+srv://mongodb855:mongodb855@cluster0.62ellva.mongodb.net/eventhub?retryWrites=true&w=majority&appName=Cluster0";
 
 console.log("Node Version:", process.version);
 
